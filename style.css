@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("https://images.unsplash.com/photo-1552083940-86877723de7a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  margin-block-end: 20px;
+}
+
+.header h1,
+h4 {
+  color: white;
+  text-align: center;
+}
+
+header h1 {
+  font-family: "Playwrite AU SA", serif;
+}
+
+header h4 {
+  font-size: 20px;
+  font-family: "Montserrat", serif;
+}
+.profile .me img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin: auto 40%;
+
+  border: solid 3px darkslateblue;
+  /* text-align: center; */
+}
+
+.profile .me {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.mySkills {
+  width: 80%;
+  margin: auto;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #4e79cf;
+}
+
+.skill-item img {
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.text-content {
+  max-width: 600px;
+}
+
+.profile {
+  margin-block-end: 160px;
+}
+
+.contact button {
+  margin: auto;
+  padding: 10px;
+  text-transform: capitalize;
+  /* background-color: #0446bf; */
+  color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: 0;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  box-shadow: inset -1px -13px 63px #0446bf;
+  /* margin-block-start: 20px; */
+}
+.contact .container {
+  text-align: center;
+}
+.contact .container p {
+  max-width: 350px;
+  margin: auto;
+  margin-top: -40px;
+  line-height: 30px;
+}
+
+footer {
+  background-image: url("https://images.unsplash.com/photo-1552083940-86877723de7a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90px;
+
+  position: relative;
+  margin-block-start: 20px;
+  text-align: center;
+}
+.footerContainer {
+  width: 100%;
+}
+
+.socialiconds {
+  padding-top: 20px;
+}
+.socialiconds a {
+  text-decoration: none;
+  background-color: #0446bf;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.socialiconds a i {
+  font-size: 1.6em;
+  color: white;
+  opacity: 0.9;
+}
+
+.socialiconds a :hover {
+  background-color: #111;
+  transition: 0.5s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.socialiconds a:hover i {
+  color: white;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+.Fotter div p {
+  text-align: center;
+  position: absolute;
+  top: 90px;
+  left: 590px;
+  text-shadow: 0px 0px 3px yellow;
+}
